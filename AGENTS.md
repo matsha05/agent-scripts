@@ -135,3 +135,38 @@ READ THIS FILE BEFORE DOING ANYTHING IN ANY OF MATT'S REPOS.
 </self-improvement>
 
 </matt-universal>
+
+---
+
+## Docs
+
+Read `docs/` in this repo before coding when present. Key docs:
+- `docs/oracle.md` - Oracle CLI workflow for complex problems
+- `docs/slash-commands.md` - Creating and using slash commands
+
+Keep docs updated when behavior changes. Honor `read_when` hints in frontmatter.
+
+---
+
+## Tools
+
+### oracle
+Bundle prompt+files for GPT-5.2 Pro consultation. Use when stuck/buggy/review.
+Run `npx -y @steipete/oracle --help` once per session before first use.
+See `docs/oracle.md` for full workflow.
+
+### gh
+GitHub CLI for PRs/CI/releases. Given issue/PR URL: use `gh`, not web search.
+Examples: `gh issue view <url> --comments`, `gh pr view <url> --comments --files`
+
+### Slash Commands
+Global: `~/.codex/prompts/`. Repo-local: `docs/slash-commands/` or `.agent/workflows/`.
+See `docs/slash-commands.md` for details.
+
+---
+
+## Skills
+
+Load skills from `skills/` when entering relevant domains:
+- `skills/oracle/SKILL.md` - Detailed Oracle usage patterns
+- `skills/frontend-design/SKILL.md` - Premium UI development
